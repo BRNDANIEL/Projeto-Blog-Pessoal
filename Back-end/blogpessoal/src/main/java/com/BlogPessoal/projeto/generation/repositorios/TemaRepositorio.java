@@ -13,7 +13,7 @@ public interface TemaRepositorio extends JpaRepository<Tema, Long> {
      * Método utilizado para pesquisar coluna tema ContainigIgnoreCase
      *
      * @param nome do tipo String
-     * @return List de Temas
+     * @return Lista de Temas
      * @author BRNDANIEL
      */
 

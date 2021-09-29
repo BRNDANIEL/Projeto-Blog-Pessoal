@@ -15,8 +15,8 @@ import java.util.Optional;
 @RequestMapping("/postagem")
 public class PostagemControlador {
 
-    private @Autowired
-    PostagemRepositorio repositorio;
+	@Autowired
+    private PostagemRepositorio repositorio;
 
     @GetMapping("/todes")
     public ResponseEntity<List<Postagem>> pegarTodos(){
@@ -50,7 +50,6 @@ public class PostagemControlador {
             return ResponseEntity.status(200).body(objetoLista);
         }
     }
-
 
     @PutMapping("/atualizar")
     public ResponseEntity<Postagem> atualizar(@Valid @RequestBody Postagem postagemParaAtualizar) {

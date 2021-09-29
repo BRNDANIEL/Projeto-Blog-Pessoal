@@ -14,8 +14,8 @@ public interface UsuarioRepositorio extends JpaRepository<Usuario, Long> {
      * Método utilizado para pesquisar coluna nome ContainigIgonreCase
      *
      * @param nome do tipo String
-     * @return List de Usuarios
-     * @author BRNDANIEL
+     * @return Lista de Usuarios
+     * @author BRNDANIEL,
      * @since 1.0
      */
 
@@ -27,7 +27,7 @@ public interface UsuarioRepositorio extends JpaRepository<Usuario, Long> {
      *
      * @param email do tipo String
      * @return Optional com Usuario
-     * @author BRNDANIEL
+     * @author Bruno Luna
      * @since 1.0
      */
 

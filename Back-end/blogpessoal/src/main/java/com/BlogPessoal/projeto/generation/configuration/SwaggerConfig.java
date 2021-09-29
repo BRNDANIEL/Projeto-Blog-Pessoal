@@ -36,7 +36,7 @@ public class SwaggerConfig {
 
     public static ApiInfo metadata() {
         return new ApiInfoBuilder()
-                .title("API - BLOG Pessoal")
+                .title("Blog Pessoal: BRNDANIEL")
                 .description("Projeto API Spring - blog pessoal")
                 .version("1.0.0")
                 .license("Apache Lincese Version 2.0")
@@ -46,7 +46,7 @@ public class SwaggerConfig {
     }
 
     public static Contact contact() {
-        return new Contact("BRNDANIEL", "https://github.com/BRNDANIEL", "brnvalero@gmail.com");
+        return new Contact("Bruno Daniel", "https://github.com/BRNDANIEL", "brnvalero@gmail.com");
     }
 
     private static List<Response> responseMessageForGET() {

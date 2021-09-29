@@ -15,7 +15,7 @@ public interface PostagemRepositorio extends JpaRepository<Postagem, Long> {
      * Método utilizado para pesquisar coluna titulo ContainigIgnoreCase
      *
      * @param titulo do tipo String
-     * @return List de Postagens
+     * @return Lista de Postagens
      * @author BRNDANIEL
      */
 
