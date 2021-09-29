@@ -15,7 +15,7 @@ public interface UsuarioRepositorio extends JpaRepository<Usuario, Long> {
      *
      * @param nome do tipo String
      * @return List de Usuarios
-     * @author MrLucc
+     * @author BRNDANIEL
      * @since 1.0
      */
 
@@ -27,7 +27,7 @@ public interface UsuarioRepositorio extends JpaRepository<Usuario, Long> {
      *
      * @param email do tipo String
      * @return Optional com Usuario
-     * @author MrLucc
+     * @author BRNDANIEL
      * @since 1.0
      */
 

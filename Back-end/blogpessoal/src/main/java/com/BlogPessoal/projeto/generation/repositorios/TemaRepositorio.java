@@ -14,7 +14,7 @@ public interface TemaRepositorio extends JpaRepository<Tema, Long> {
      *
      * @param nome do tipo String
      * @return List de Temas
-     * @author MrLucc
+     * @author BRNDANIEL
      */
 
     List<Tema> findAllByTemaContainingIgnoreCase(String tema);

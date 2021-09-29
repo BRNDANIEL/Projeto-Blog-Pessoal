@@ -51,16 +51,6 @@ public class PostagemControlador {
         }
     }
 
-//    @GetMapping("/pesquisa")
-//    public ResponseEntity<List<Postagem>> buscarPorTituloII(@RequestParam(defaultValue = "") String titulo) {
-//        List<Postagem> objetoLista = repositorio.findAllByTituloContainingIgnoreCase(titulo);
-//
-//        if(objetoLista.isEmpty()) {
-//            return ResponseEntity.status(204).build();
-//        }else{
-//            return ResponseEntity.status(200).body(objetoLista);
-//        }
-//    }
 
     @PutMapping("/atualizar")
     public ResponseEntity<Postagem> atualizar(@Valid @RequestBody Postagem postagemParaAtualizar) {

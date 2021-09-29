@@ -46,7 +46,7 @@ public class SwaggerConfig {
     }
 
     public static Contact contact() {
-        return new Contact("Bruno Daniel", "https://github.com/BRNDANIEL", "brnvalero@gmail.com");
+        return new Contact("BRNDANIEL", "https://github.com/BRNDANIEL", "brnvalero@gmail.com");
     }
 
     private static List<Response> responseMessageForGET() {
